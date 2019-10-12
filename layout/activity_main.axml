@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+	android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+	<ImageButton
+		android:id="@+id/Mapa0"
+		android:layout_width ="match_parent"
+		android:layout_height="325dp"
+		android:layout_margin="1dp"
+		android:text="MAPA"
+		android:adjustViewBounds="true"
+		android:clickable="true"
+		android:drawingCacheQuality="high"
+		android:importantForAutofill="yes"
+		android:scrollbars="horizontal|vertical"
+		android:visibility="visible"
+		android:background="#fffafafa"
+		android:defaultFocusHighlightEnabled="true"
+		android:forceHasOverlappingRendering="true"
+		android:isScrollContainer="false"
+		android:hapticFeedbackEnabled="true" />
+	    <TableRow
+        android:id="@+id/Botones_01"
+		android:layout_margin="1dp"		
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/Iniciar"
+			android:layout_height="30dp"
+			android:layout_width="150dp"
+			android:layout_margin="1dp"
+			android:background="#ff2196f3"
+			android:text="ESCANEAR"
+			android:textColor="#ffffffff"
+			android:textStyle="bold"/>
+		<Button
+			android:id="@+id/Parar"
+			android:layout_height="30dp"
+			android:layout_width="150dp"
+			android:layout_margin="1dp"
+			android:background="#ff2196f3"
+			android:text="PARADO"
+			android:textColor="#ffffffff"
+			android:textStyle="bold"/>
+		<Button
+			android:id="@+id/Xml"
+			android:layout_height="30dp"
+			android:layout_width="match_parent"
+			android:layout_margin="1dp"
+			android:background="#ff2196f3"
+			android:text="XML"
+			android:textColor="#ffffffff"
+			android:textStyle="bold"
+			android:layout_marginRight="2.5dp" />
+    </TableRow>
+	<TextView
+		android:id="@+id/Crono"
+		android:layout_width="match_parent"
+		android:layout_height="90dp"
+		android:layout_margin="1dp"
+		android:text="Crono"
+		android:textColor="#ffffffff"
+		android:background="#ff2196f3"
+		android:textSize="12dp" />
+		<TableRow
+        android:id="@+id/Informe"
+		android:layout_margin="1dp"		
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+		<ImageView
+			android:id="@+id/Info_Foto"
+			android:layout_height="150dp"
+			android:layout_width="150dp"
+			android:background="#ff2196f3"
+			android:src="#ff90caf9" />
+		<TextView
+	     	android:id="@+id/Txt_Foto"
+	    	android:layout_height="150dp"
+	  	    android:background="#ff2196f3"			
+		    android:text="Info Foto"
+	    	android:textColor="#ffffffff"
+		    android:textSize="12dp" />
+	</TableRow>
+	<TextView
+		android:id="@+id/Beacons"
+		android:text="Beacons"
+		android:layout_width="match_parent"
+		android:layout_height="260dp"
+		android:layout_margin="1dp"
+		android:textSize="12dp"
+		android:background="#ff2196f3"
+		android:textColor="#ffffffff"
+		android:textStyle="bold" />
+</LinearLayout>
+

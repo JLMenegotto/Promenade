@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Promenade_2019</string>
+  <string-array name="Lista_de_Beacons">
+    <item>Beacon 01</item>
+    <item>Beacon 02</item>
+    <item>Beacon 03</item>
+    <item>Beacon 04</item>
+    <item>Beacon 05</item>
+    <item>Beacon 06</item>
+    <item>Beacon 07</item>
+    <item>Beacon 08</item>
+    <item>Beacon 09</item>
+    <item>Beacon 10</item>
+  </string-array>
+</resources>
