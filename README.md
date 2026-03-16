@@ -11,6 +11,7 @@ No projeto Promenade trabalha-se no desenvolvimento de sistemas de mobilidade as
 Alguns subprodutos das metodologias estudadas podem ser aplicados ao gerenciamento do patrimônio edificado no seu controle de ativos. A pesquisa faz interfaces nos campos relativos a Internet das Coisas IoT, FM, BIM Building Information Modeling e CAD Computer Aided Design. Os códigos neste repositório são definidos para rodar em dispositivos Android.
 
 A pasta "https://sites.google.com/a/poli.ufrj.br/jose-luis-menegotto/mapas/" deve ser atualizada no código fonte.
+A lista de dispositivos {"OnyxBeacon", "RqBleLight", "PlaybulbX", "Playbulbx"} se refere aos dispositivos usados nos testes. O desenvolvedor deve adaptar essa lista com os beacons específicos do seu local de testes. 
 
 ## 
 [**Canal YouTube:** Videos com explicação dos conteúdos e metodologias das funções](https://www.youtube.com/channel/UCCN58u2BP38F09aswlJrILA)
